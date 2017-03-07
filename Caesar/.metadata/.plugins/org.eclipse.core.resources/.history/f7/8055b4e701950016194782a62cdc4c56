@@ -1,0 +1,44 @@
+package shiger;
+
+public class Caeser {
+	
+	String s;
+	int key;
+	//GouZao FangFa
+	void Caesar(String es,int n){
+		s=es;
+		key=n;
+	}
+	/*
+	 * 
+	 */
+	public String process(){
+		String es="";
+		for(int i=0;i<s.length();i++){
+			char c=s.charAt(i);
+			if(c>='a'&&c<='z'){
+				c+=key%26;
+				if(c<'a')c+=26;
+				if(c>'z')c-=26;
+			}
+			else if(c>='A'&&c<='Z'){
+				c+=key%26;
+				if(c<'A') c+=26;
+				if(c>='Z')c-=26;
+			}
+			es+=c;
+		}
+		return es;
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="hello";
+		Caesar c=new Caesar(s,2);
+
+	}
+
+}

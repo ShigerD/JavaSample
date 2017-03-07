@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="在“com.tiger.classLab.Cat”中包括字段“com.tiger.classLab.Cat.color”&#x0D;&#x0A;－ 原始项目：“classLab”&#x0D;&#x0A;－ 原始元素：“com.tiger.classLab.Cat.color”&#x0D;&#x0A;－ getter 方法名：“getColor”&#x0D;&#x0A;－ setter 方法名：“setColor”&#x0D;&#x0A;－ 字段可视性：“public”&#x0D;&#x0A;－ 在声明类型时使用 getter 方法和 setter 方法" comments="false" declaring="true" description="包括字段“color”" flags="589830" getter="getColor" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.tiger.classLab{Cat.java[Cat^color" insertion="1" setter="setColor" stamp="1488878490258" version="1.0" visibility="1"/>
+</session>

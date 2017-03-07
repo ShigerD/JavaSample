@@ -1,0 +1,12 @@
+package com.tiger.classLab;
+
+public class MultiThread extends Thread {
+
+	private int ticket=100;
+	public void run()
+	{
+		for (int i = ticket; i >0; i--) {
+			ticket--;
+		}
+	}
+}

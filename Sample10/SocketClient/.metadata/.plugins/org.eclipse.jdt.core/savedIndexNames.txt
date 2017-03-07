@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+M:\JAVAPRO\Sample\Sample10\SocketClient\.metadata\.plugins\org.eclipse.jdt.core
+2046950984.index
+23951399.index
+3219023390.index
+2760261581.index

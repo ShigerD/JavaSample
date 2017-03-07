@@ -1,0 +1,31 @@
+package com.tiger.classLab;
+
+public class Main {
+	private void class_test(){
+		Cat smallCat=new Cat();
+		smallCat.setColor("black");
+		String catColor=smallCat.getColor();
+		System.out.println("catcolor:"+catColor);
+		smallCat.speak();
+		
+		Tiger tiger=new Tiger();
+		tiger.speak();
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("helloworld");
+		
+		
+		MultiThread th1=new MultiThread();
+		MultiThread th2=new MultiThread();
+		MultiThread th3=new MultiThread();
+		
+	}
+	
+
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="F:\Program\JDK179" version="1.7.0_79">
+<bootpath>
+<entry path="F:\Program\JDK179\jre\lib\resources.jar"/>
+<entry path="F:\Program\JDK179\jre\lib\rt.jar"/>
+<entry path="F:\Program\JDK179\jre\lib\sunrsasign.jar"/>
+<entry path="F:\Program\JDK179\jre\lib\jsse.jar"/>
+<entry path="F:\Program\JDK179\jre\lib\jce.jar"/>
+<entry path="F:\Program\JDK179\jre\lib\charsets.jar"/>
+<entry path="F:\Program\JDK179\jre\lib\jfr.jar"/>
+<entry path="F:\Program\JDK179\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\Program\JDK179\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\Program\JDK179\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\JAVA_JDK2" version="1.8.0_77">
+<bootpath>
+<entry path="F:\JAVA_JDK2\lib\resources.jar"/>
+<entry path="F:\JAVA_JDK2\lib\rt.jar"/>
+<entry path="F:\JAVA_JDK2\lib\sunrsasign.jar"/>
+<entry path="F:\JAVA_JDK2\lib\jsse.jar"/>
+<entry path="F:\JAVA_JDK2\lib\jce.jar"/>
+<entry path="F:\JAVA_JDK2\lib\charsets.jar"/>
+<entry path="F:\JAVA_JDK2\lib\jfr.jar"/>
+<entry path="F:\JAVA_JDK2\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\JAVA_JDK2\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\JAVA_JDK2\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

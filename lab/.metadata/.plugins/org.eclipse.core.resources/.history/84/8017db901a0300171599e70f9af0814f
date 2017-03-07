@@ -1,0 +1,26 @@
+package com.tiger.classLab;
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("helloworld");
+		
+	//	smallCat.speakMiao();
+		
+		
+		Cat smallCat=new Cat();
+		smallCat.setColor("black");
+		String catColor=smallCat.getColor();
+		System.out.println("catcolor:"+catColor);
+		smallCat.speak();
+		
+		Tiger tiger=new Tiger();
+		tiger.speak();
+		
+	}
+
+}

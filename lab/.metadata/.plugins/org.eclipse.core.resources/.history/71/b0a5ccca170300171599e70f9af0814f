@@ -1,0 +1,23 @@
+package com.tiger.classLab;
+
+public class Cat {
+	
+	public Cat()
+	{
+		System.out.println("Cat's building way");
+		//speakMiao();
+	}
+	public static void speakMiao()
+	{
+		System.out.println("speak Miao");
+	}
+	
+	public char getColor() {
+		return color;
+	}
+	public void setColor(char color) {
+		this.color = color;
+	}
+
+	private char color;
+}
