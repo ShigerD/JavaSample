@@ -30,8 +30,8 @@ public class Main {
 		
 		MultiThreadViaRunableImplement a = new MultiThreadViaRunableImplement("线程1");
 		MultiThreadViaRunableImplement b =new MultiThreadViaRunableImplement("线程2");
-		new Thread(a,"1....").start();
-		new Thread(a,"2....").start();
+		new Thread(a,"th1").start();
+		new Thread(b,"th2").start();
 	
 		
 		

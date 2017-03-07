@@ -12,12 +12,12 @@ public class MultiThreadViaRunableImplement implements Runnable{
 	
 	public void run() {
 		// TODO Auto-generated method stub
-		//int i=ticket;
-		while(ticket>0 ) {
-			ticket--;
-			System.out.println(Thread.currentThread().getName()+"...."+ticket);
+		int i=ticket;
+		while(i>0 ) {
+			i--;
+			System.out.println(name+"...."+i);
 		}
-		System.out.println(Thread.currentThread().getName()+"..End");
+		System.out.println(name+"..End");
 	}
 
 }

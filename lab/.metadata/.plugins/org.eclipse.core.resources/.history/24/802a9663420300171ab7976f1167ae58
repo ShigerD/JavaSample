@@ -1,7 +1,7 @@
 package com.tiger.classLab;
 
 public class MultiThreadViaRunableImplement implements Runnable{
-	private int ticket=100;
+	
 	private String name;
 	public MultiThreadViaRunableImplement(){
 		
@@ -12,10 +12,10 @@ public class MultiThreadViaRunableImplement implements Runnable{
 	
 	public void run() {
 		// TODO Auto-generated method stub
-		//int i=ticket;
-		while(ticket>0 ) {
-			ticket--;
-			System.out.println(Thread.currentThread().getName()+"...."+ticket);
+		int i=60;
+		while(i>0 ) {
+			i--;
+			System.out.println(Thread.currentThread().getName()+"...."+i);
 		}
 		System.out.println(Thread.currentThread().getName()+"..End");
 	}

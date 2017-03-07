@@ -28,12 +28,6 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("helloworld");
 		
-		MultiThreadViaRunableImplement a = new MultiThreadViaRunableImplement("线程1");
-		MultiThreadViaRunableImplement b =new MultiThreadViaRunableImplement("线程2");
-		new Thread(a,"1....").start();
-		new Thread(a,"2....").start();
-	
-		
 		
 	}
 	
